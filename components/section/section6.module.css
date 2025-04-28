@@ -1,0 +1,156 @@
+.pricingPlansSection {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricingPlansHeading {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    color: #0649E7;
+    text-align: left;
+}
+
+.pricingCardsWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .pricingCardsWrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.advancedPlanSection {
+    margin-top: 2rem;
+}
+
+.advancedPlanContainer {
+    background-color: #2563eb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 2.1875rem;
+}
+
+.advancedPlanContentWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.advancedPlanContentLeft {
+    flex: 1;
+}
+
+.advancedPlanHeading {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.advancedPlanSubheading {
+    color: #93c5fd;
+    margin-bottom: 1rem;
+}
+
+.advancedPlanHr {
+    border: 1px solid #e5e7eb;
+}
+
+.advancedPlanServicesList {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .advancedPlanServicesList {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.advancedPlanService {
+    display: flex;
+    align-items: flex-start;
+}
+
+.advancedPlanServiceText {
+    font-size: 0.875rem;
+}
+
+.advancedPlanContentRight {
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.advancedPlanPriceWrapper {
+    margin-bottom: 1rem;
+}
+
+.advancedPlanPrice {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.advancedPlanPriceDetails {
+    color: #93c5fd;
+    font-size: 0.875rem;
+}
+
+.advancedPlanButtonWrapper {
+    margin-top: auto;
+}
+
+.getStartedButton {
+    width: 100%;
+}
+
+/* Service Plan Card */
+.servicePlanCard {
+    background-color: #f1f5f9;
+    padding: 2rem;
+    border-radius: 0.875rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.servicePlanHeading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.servicePlanPrice {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.servicePlanServicesList {
+    margin-bottom: 1rem;
+}
+
+.servicePlanService {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.servicePlanPopularBadge {
+    background-color: #16a34a;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 9999px;
+}

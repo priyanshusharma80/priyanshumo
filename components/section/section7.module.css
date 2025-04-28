@@ -1,0 +1,38 @@
+/* General section styling */
+.resumeBuildingSection {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resumeBuildingHeading {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #0649E7;
+    text-align: left;
+}
+
+.resumeBuildingDescription {
+    color: #0649E7;
+    margin-bottom: 3rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.servicesWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .servicesWrapper {
+        gap: 2rem;
+    }
+}

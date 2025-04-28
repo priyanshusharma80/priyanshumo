@@ -1,0 +1,58 @@
+.founderProfileWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .founderProfileWrapper {
+        flex-direction: row;
+    }
+}
+
+.founderImage {
+    /* border-radius: 9999px; */
+    padding-top: 0.25rem;
+    margin-right: 2.5rem;
+}
+
+.founderDetails {
+    max-width: 48rem;
+}
+
+.founderName {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.founderTitle {
+    color: rgb(209, 213, 219);
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.founderDescription {
+    color: rgb(229, 231, 235);
+    line-height: 1.25rem;
+}
+
+.aboutUsSection {
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.aboutUsHeading {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.foundersContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}

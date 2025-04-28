@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0649E7;
+  --color-secondary: #022183;
+  --color-white: #FEFEFE;
+  --color-light-blue: #EBF1FF;
+  --color-black: #101010;
+  --font-family-sora: 'Sora', sans-serif;
+  --font-family-dm-sans: 'DM Sans', sans-serif;
+  --font-size-h1: 80px;
+  --font-size-h2: 40px;
+  --font-size-h3: 32px;
+  --font-size-h4: 24px;
+  --font-size-p1: 18px;
+  --font-size-p2: 16px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --border-radius-card: 20px;
+  --box-shadow-book-card: 0 0 14px rgba(0, 0, 0, 0.1);
+  --max-width-container: 1500px;
+  --max-width-responsive-lg: 1280px;
+  --max-width-responsive-md: 1024px;
+  --max-width-responsive-sm: 768px;
+  --max-width-responsive-xs: 640px;
+  --max-width-responsive-xxs: 100%;
+  --font-size-responsive-h1-lg: 64px;
+  --font-size-responsive-h2-lg: 32px;
+  --font-size-responsive-h1-md: 48px;
+  --font-size-responsive-h2-md: 28px;
+  --font-size-responsive-h1-sm: 32px;
+  --font-size-responsive-h2-sm: 24px;
+  --font-size-responsive-h3-sm: 20px;
+  --font-size-responsive-h3-xs: 20px;
+  --font-size-responsive-h4-xs: 20px;
+  --font-size-responsive-p1-xs: 16px;
+  --font-size-responsive-p2-xs: 14px;
+  --font-size-responsive-p1-sm: 18px;
+  --font-size-responsive-p2-sm: 16px;
+  --font-size-responsive-p1-md: 18px;
+  --font-size-responsive-p2-md: 16px;
+}
+
+h1 {
+  font-family: 'Sora', sans-serif;
+  font-size: 80px;
+}
+
+p,
+span,
+h2,
+h3,
+h4 {
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+/* Container */
+.container {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Hero Background */
+.gradient-background {
+  background: linear-gradient(40deg, rgba(107, 136, 209, 1) 11%, rgba(2, 33, 131, 1) 74%, rgba(16, 16, 16, 1) 100%);
+}
+
+#about {
+  background: #020024;
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(2, 33, 131, 1) 60%, rgba(6, 73, 231, 1) 100%);
+}
+
+/* Responsive */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .h1 {
+    font-size: 64px;
+  }
+
+  .h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+
+  .h1 {
+    font-size: 48px;
+  }
+
+  .h2 {
+    font-size: 28px;
+  }
+
+  .h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .h1 {
+    font-size: 32px;
+  }
+
+  .h2 {
+    font-size: 24px;
+  }
+
+  .h3 {
+    font-size: 20px;
+  }
+}
